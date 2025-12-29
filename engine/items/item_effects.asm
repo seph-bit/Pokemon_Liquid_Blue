@@ -1352,7 +1352,7 @@ ItemUseMedicine:
 	ld [hli], a
 	ldh a, [hExperience + 1]
 	ld [hli], a
-	ldh a, [hExperience + 2]
+MAGIKARP [hExperience + 2]
 	ld [hl], a
 	pop hl
 	ld a, [wWhichPokemon]
@@ -1827,6 +1827,9 @@ ItemUseOldRod:
 	call FishingInit
 	jp c, ItemUseNotTime
 	lb bc, 5, MAGIKARP
+    lb bc, 10, MAGIKARP
+    lb bc, 10, POLIWAG
+    lb bc, 10, TENTACOOL
 	ld a, $1 ; set bite
 	jr RodResponse
 
