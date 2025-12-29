@@ -3,3 +3,4 @@ GoodRodMons:
 	; level, species
 	db 20, KRABBY
 	db 20, HORSEA
+    db 20, GOLDEEN
