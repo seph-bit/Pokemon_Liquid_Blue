@@ -1,15 +1,15 @@
 VictoryRoad3FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 24, MACHOP
-	db 26, GEODUDE
-	db 22, ZUBAT
+	db 45, HAUNTER
+	db 45, GRAVELER
+	db 44, GOLBAT
 	db 42, ONIX
-	db 40, VENOMOTH
+	db 50, GENGAR
 	db 45, ONIX
-	db 43, GRAVELER
-	db 41, GOLBAT
-	db 42, MACHOKE
-	db 45, MACHOKE
+	db 51, GOLEM
+	db 49, HITMONCHAN
+	db 50, HITMONLEE
+	db 52, HITMONLEE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
