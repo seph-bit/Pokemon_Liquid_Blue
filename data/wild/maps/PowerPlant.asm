@@ -1,18 +1,19 @@
-IFdmons 10 ; encounter rate
-	db 21, VOLTORB
-	db 21, MAGNEMITE
-	db 20, PIKACHU
-	db 24, PORYGON
-	db 23, RAICHU
-	db 23, ELECTRODE
-	db 32, MAGNETON
-	db 35, MAGNETON
+PowerPlantMons:
+	def_grass_wildmons 10 ; encounter rate
+	db 35, VOLTORB
+	db 33, MAGNEMITE
+	db 32, PIKACHU
+	db 31, PIKACHU
+	db 39, RAICHU
+	db 37, ELECTRODE
+	db 34, MAGNETON
+	db 38, MAGNETON
 IF DEF(_RED)
-	db 38, ELECTABUZZ
-	db 36, ELECTABUZZ
+	db 37, ELECTABUZZ
+	db 40, ELECTABUZZ
 ENDC
 IF DEF(_BLUE)
-	db 38, RAICHU
+	db 37, RAICHU
 	db 40, RAICHU
 ENDC
 	end_grass_wildmons
