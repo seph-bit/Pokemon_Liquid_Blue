@@ -1,27 +1,27 @@
 Route14WildMons:
 	def_grass_wildmons 15 ; encounter rate
 IF DEF(_RED)
-	db 24, WEEPINBELL
-	db 26, PIDGEOTTO
-	db 23, DITTO
-	db 24, VENOMOTH
-	db 22, GLOOM
-	db 26, VENOMOTH
-	db 26, KOFFING
 	db 30, GLOOM
+	db 33, PIDGEOTTO
+	db 34, DITTO
+	db 33, VENOMOTH
+	db 35, GLOOM
+	db 34, SHELLDER
+	db 31, KOFFING
+	db 36, WEEPINBELL
 ENDC
 IF DEF(_BLUE)
-	db 24, WEEPINBELL
-	db 26, PIDGEOTTO
-	db 23, DITTO
-	db 24, VENOMOTH
-	db 22, WEEPINBELL
-	db 26, STARYU
-	db 26, GRIMER
-	db 30, GLOOM
+	db 30, WEEPINBELL
+	db 33, PIDGEOTTO
+	db 34, DITTO
+	db 33, VENOMOTH
+	db 35, WEEPINBELL
+	db 34, STARYU
+	db 31, GRIMER
+	db 36, GLOOM
 ENDC
-	db 28, VENOMOTHT
-    dbdb 37, VENOMOTH
+	db 36, VENOMOTH
+    db 37, VENOMOTH
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
