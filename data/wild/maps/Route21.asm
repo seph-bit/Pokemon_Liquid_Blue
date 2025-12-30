@@ -5,7 +5,7 @@ Route21WildMons:
 	db 41, RATICATE
 	db 39, PIDGEOTTO
 	db 40, TANGELA
-	db 40, SHELLDER
+	db 40, POLIWHIRL
 	db 42, PIDGEOT
 	db 43, TANGELA
 	db 42, MR_MIME
