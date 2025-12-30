@@ -6,10 +6,10 @@ VictoryRoad2FWildMons:
 	db 43, ONIX
 	db 46, ONIX
 	db 49, GENGAR
-	db 51, GENGAR
-	db 47, GOLBAT
-	db 48, MAROWAK
-	db 50, ALAKAZAM
+	db 51, ALAKAZAM
+	db 47, MAROWAK
+	db 48, OMANYTE
+	db 50, KABUTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
