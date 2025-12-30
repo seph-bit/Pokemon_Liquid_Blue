@@ -1,25 +1,25 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
 IF DEF(_RED)
-	db 26, EKANS
+	db 46, NIDORINA
 ENDC
 IF DEF(_BLUE)
-	db 26, SANDSHREW
+	db 46, NIDORINO
 ENDC
-	db 33, DITTO
-	db 26, SPEAROW
-	db 38, FEAROW
-	db 38, DITTO
-	db 38, FEAROW
+	db 44, DITTO
+	db 46, EXEGGCUTE
+	db 45, RAPIDASH
+	db 47, PRIMEAPE
+	db 48, FEAROW
 IF DEF(_RED)
-	db 41, ARBOK
+	db 50, NIDOQUEEN
 ENDC
 IF DEF(_BLUE)
-	db 41, SANDSLASH
+	db 50, NIDOKING
 ENDC
-	db 43, DITTO
-	db 41, FEAROW
-	db 43, FEAROW
+	db  5, BULBASAUR
+	db  5, CHARMANDER
+	db  5, SQUIRTLE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
