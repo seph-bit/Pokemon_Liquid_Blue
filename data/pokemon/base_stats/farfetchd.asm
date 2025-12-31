@@ -1,10 +1,10 @@
 	db DEX_FARFETCHD ; pokedex id
 
-	db  52,  65,  55,  60,  58
+	db  65,  75,  65,  75,  70
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
-	db 45 ; catch rate
+	db 200 ; catch rate
 	db 94 ; base exp
 
 	INCBIN "gfx/pokemon/front/farfetchd.pic", 0, 1 ; sprite dimensions
