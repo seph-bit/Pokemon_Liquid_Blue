@@ -1,10 +1,10 @@
 	db DEX_PONYTA ; pokedex id
 
-	db  50,  85,  55,  90,  65
+	db  50,  85,  55,  95,  65
 	;   hp  atk  def  spd  spc
 
-	db FIRE, FIRE ; type
-	db 190 ; catch rate
+	db FIRE, NORMAL ; type
+	db 200 ; catch rate
 	db 152 ; base exp
 
 	INCBIN "gfx/pokemon/front/ponyta.pic", 0, 1 ; sprite dimensions
