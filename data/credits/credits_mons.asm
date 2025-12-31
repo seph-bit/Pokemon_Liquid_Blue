@@ -1,17 +1,17 @@
 CreditsMons:
 ; one entry per CRED_TEXT_MON or CRED_TEXT_FADE_MON in CreditsOrder
 	db VENUSAUR
-	db ARBOK
-	db RHYHORN
-	db FEAROW
-	db ABRA
-	db GRAVELER
+	db CHARIZARD
+	db BLASTOISE
+	db RHYDON
+	db ALAKAZAM
+	db GENGAR
 	db HITMONLEE
-	db TANGELA
-	db STARMIE
+	db EXEGGUTOR
+	db ONIX
 	db GYARADOS
 	db DITTO
-	db OMASTAR
-	db VILEPLUME
+	db ARCANINE
+	db DODRIO
 	db NIDOKING
-	db PARASECT
+	db PIKACHU
